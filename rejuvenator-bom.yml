@@ -2,7 +2,7 @@
 ---
 project: "A1000 Rejuvenator"
 base: "https://shred.github.io/rejuvenator-bom/"
-version: "0.2"
+version: "0.3"
 date: "2023-06-02"
 source:
   repo: "GitHub"
@@ -142,12 +142,12 @@ Capacitors:
     package: "TH"
     quantity: 1
     rare: yes
+    remark: "Skip if RTC72421A is used"
     components: ["C24"]
   - part: "22µF 16V radial"
     package: "TH RM5"
     quantity: 1
     components: ["C37"]
-    remark: "Skip if RTC72421A is used"
     mouser: {id: "667-EEU-FR1H220B"}
 
 Resistors:
