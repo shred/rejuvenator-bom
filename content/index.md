@@ -1,5 +1,11 @@
 # Table of Contents
 
+<div style="background-color:red;padding:10px;text-align:center">
+<div style="font-size:200%;font-weight:bold">WARNING</div>
+<p style="font-weight:bold">This Bill of Materials is still under construction and has not been peer reviewed yet.</p>
+<p>Although we are quite confident that the components are correct, there may still be major flaws. Use it at your own risk.</p>
+</div>
+
 <div class="toc"><ul>
   <li><a href="index.html">Introduction</a> &ndash; this page</li>
   <li><a href="rejuvenator-bom.html">The Bill of Material</a> &ndash; what you are probably here for</li>
@@ -18,16 +24,24 @@ If you want to build your own Rejuvenator, be aware that you are dealing with te
 
 While almost all of the standard components are still available, some components are rare by now. You will need *all* of the listed components (except of those marked optional). We recommend that you try to get the components marked as <span class="rare">Rare</span> first, so you won't waste your money on standard components if you fail to get all the rare ones.
 
+Also, installing the Rejuvenator into your Amiga 1000 is a very difficult process. Once you've done it, you definitely won't want to try again. We recommend to read the installation manual first (link see below).
+
 ## Rare Parts
 
-* **RAM**: You can use any 44256 type DRAM with a 256Kx4 organization. You can use either 4 or 8 chips, for 512KB or 1MB of Chip RAM. If 4 chips are used, they are seated in U6, U8, U10, U12. An easy way to get them is to purchase a used Amiga 500 memory expansion with 4 chips. You can also reuse the OKI clock chip from that expansion.
+* **RAM**: You can use any 44256 type DRAM with a 256Kx4 organization and an access time of 120ns or faster. You can use either 4 or 8 chips, for 512KB or 1MB of Chip RAM. If 4 chips are used, they are seated in U6, U8, U10, U12. An easy way to get them is to purchase a used Amiga 500 memory expansion with 4 chips. You can also reuse the OKI clock chip from that expansion.
 * **OKI 6242B**: These chips can still be found as NOS part at online marketplaces.
-* **EPROM**: You can use 512KB x 16 bit EPROMs like AM27C400 or MX27C4100. They can still be found as NOS parts at online marketplaces. If the Kickstart image is 256KB big, just duplicate it when burning it to a 512KB EPROM.
+* **EPROM**: You can use 512KB x 16 bit EPROMs like AM27C400 or MX27C4100. They can still be found as NOS parts at online marketplaces. If the Kickstart image is 256KB big, duplicate it when burning it to a 512KB EPROM.
 * **Agnus**: You will need a Fat Agnus in a PLCC-84 package.
 * **Denise**: Can be reused from your Amiga 1000, or replaced with an ECS Denise.
 * **Paula**: Can be reused from your Amiga 1000.
-* **PAL 16L8**: They can be replaced with ATF16V8 GALs that are still produced today.
-* **PAL 20L8**: They can be replaced with ATF20V8 or ATF22V10 GALs. The ATF22V10 type is still in production. joethezombie provides adapted fusemaps for that type.
+* **PAL 16L8**: They can be replaced with ATF16V8 GALs that are still in production.
+* **PAL 20L8**: They can be replaced with ATF20V8 or ATF22V10 GALs. The ATF22V10 type is still in production. Adapted fusemaps for that type are provided.
+
+## Assembly and Installation
+
+* The fusemaps for the GALs [can be found here](https://github.com/joethezombie/Amiga-1000-Rejuvenator/tree/master/PLD/Rejuvenator).
+* For assembly see the [original installation manual](http://amiga.resource.cx/manual/Rejuvenator.pdf).
+* [See here](https://www.amigalove.com/viewtopic.php?t=749) about how to expand the Rejuvenator to 2MB of Chip RAM.
 
 ## Disclaimer
 

@@ -2,8 +2,8 @@
 ---
 project: "A1000 Rejuvenator"
 base: "https://shred.github.io/rejuvenator-bom/"
-version: "0.1"
-date: "2023-05-26"
+version: "0.2"
+date: "2023-06-02"
 source:
   repo: "GitHub"
   url: "https://github.com/shred/rejuvenator-bom"
@@ -43,13 +43,13 @@ Board:
     quantity: 2
     components: ["U5","U15"]
     mouser: {id: "595-SN74LS373N"}
-  - part: "DRAM 44256 (256Kx4)"
+  - part: "DRAM 44256 (256Kx4), 120ns or faster"
     package: "DIP-20"
     quantity: 8
     components: ["U6","U7","U8","U9","U10","U11","U12","U13"]
     remark: "4 pcs (512KB Chip) or 8 pcs (1MB Chip)"
     rare: yes
-  - part: "EPROM 256K 512K (16 bit)"
+  - part: "EPROM 256K/512K (16 bit)"
     package: "DIL-40"
     quantity: 1
     components: ["U18"]
@@ -61,18 +61,18 @@ Board:
     components: ["U19"]
     rare: yes
     remark: "318069-02, use others if you know what you're doing"
-  - part: "Paula"
+  - part: "Paula 8364"
     package: "DIL-48"
     quantity: 1
     components: ["U20"]
     rare: yes
-    remark: "8364 (from your A1000)"
-  - part: "Denise"
+    remark: "from your A1000"
+  - part: "Denise 8362"
     package: "DIL-48"
     quantity: 1
     components: ["U25"]
     rare: yes
-    remark: "8362 (from your A1000) or 8373"
+    remark: "from your A1000, or 8373"
   - part: "74HC245"
     package: "DIP-20"
     quantity: 2
@@ -83,14 +83,14 @@ Board:
     quantity: 1
     components: ["U27"]
     rare: yes
-  - part: "PAL16L8"
+  - part: "PAL16L8, 15ns or faster"
     package: "DIP-20"
     quantity: 2
     components: ["U28","U29"]
     rare: yes
     remark: "Replace with ATF16V8"
     mouser: {id: "556-AF16V8C7PU"}
-  - part: "PAL20L8"
+  - part: "PAL20L8, 15ns or faster"
     package: "DIP-24"
     quantity: 2
     components: ["U30","U31"]
@@ -139,6 +139,7 @@ Capacitors:
   - part: "22pF Trimmer Capacitor"
     package: "TH"
     quantity: 1
+    rare: yes
     components: ["C24"]
   - part: "22µF 16V radial"
     package: "TH RM5"
@@ -258,6 +259,10 @@ Mechanical:
   - part: "Connector Header, 24 pos, 16 mm length"
     quantity: 6
     remark: "2 each for U19B1, U20B1, U25B1"
+  - part: "SIL Header, 1 pin, straight"
+    quantity: 3
+    remark: "For the Test Hook leads"
+    mouser: {id: "649-68001-100HLF"}
   - part: "SIL Header, 2 pin, angled"
     quantity: 1
     components: ["JP100"]
@@ -271,7 +276,7 @@ Mechanical:
     components: ["JP100","JP101","JP102","JP103","JP104"]
     remark: "Jumpers"
     mouser: {id: "200-SNT100BKG"}
-  - part: "Connector for video slot"
+  - part: "Connector for Video Slot"
     quantity: 2
     components: ["X16","X17"]
 
@@ -279,3 +284,6 @@ Various:
   - part: "Battery, 3.6V, rechargeable"
     quantity: 1
     components: ["BT1"]
+  - part: "Test Hook with female DuPont connector"
+    quantity: 3
+    remark: "Different colors"
