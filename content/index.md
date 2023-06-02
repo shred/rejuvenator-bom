@@ -29,7 +29,7 @@ Also, installing the Rejuvenator into your Amiga 1000 is a very difficult proces
 ## Rare Parts
 
 * **RAM**: You can use any 44256 type DRAM with a 256Kx4 organization and an access time of 120ns or faster. You can use either 4 or 8 chips, for 512KB or 1MB of Chip RAM. If 4 chips are used, they are seated in U6, U8, U10, U12. An easy way to get them is to purchase a used Amiga 500 memory expansion with 4 chips. You can also reuse the OKI clock chip from that expansion.
-* **OKI 6242B**: These chips can still be found as NOS part at online marketplaces.
+* **OKI 6242B**: These chips can still be found as NOS part at online marketplaces. However, it's better to use a RTC72421A as replacement, and skip Y1, C21 and C24 (which is difficult to find). The RTC72421A also does not need calibration.
 * **EPROM**: You can use 512KB x 16 bit EPROMs like AM27C400 or MX27C4100. They can still be found as NOS parts at online marketplaces. If the Kickstart image is 256KB big, duplicate it when burning it to a 512KB EPROM.
 * **Agnus**: You will need a Fat Agnus in a PLCC-84 package.
 * **Denise**: Can be reused from your Amiga 1000, or replaced with an ECS Denise.

@@ -81,6 +81,7 @@ Board:
   - part: "OKI 6242B"
     package: "DIP-18"
     quantity: 1
+    remark: "Replacement: RTC72421A (do not populate Y1, C21, C24)"
     components: ["U27"]
     rare: yes
   - part: "PAL16L8, 15ns or faster"
@@ -130,6 +131,7 @@ Capacitors:
     package: "TH"
     quantity: 1
     components: ["C21"]
+    remark: "Skip if RTC72421A is used"
     mouser: {id: "594-A220J15C0GH5TAA"}
   - part: "47µF 16V radial"
     package: "TH RM5"
@@ -145,6 +147,7 @@ Capacitors:
     package: "TH RM5"
     quantity: 1
     components: ["C37"]
+    remark: "Skip if RTC72421A is used"
     mouser: {id: "667-EEU-FR1H220B"}
 
 Resistors:
@@ -194,6 +197,7 @@ Oscillators:
     package: "TH"
     quantity: 1
     components: ["Y1"]
+    remark: "Skip if RTC72421A is used"
     mouser: {id: "815-AB26T-32.768KHZ"}
 
 Sockets:
