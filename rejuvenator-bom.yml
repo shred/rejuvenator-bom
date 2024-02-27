@@ -2,8 +2,8 @@
 ---
 project: "A1000 Rejuvenator"
 base: "https://shred.github.io/rejuvenator-bom/"
-version: "0.3"
-date: "2023-06-02"
+version: "0.4"
+date: "2024-02-27"
 source:
   repo: "GitHub"
   url: "https://github.com/shred/rejuvenator-bom"
