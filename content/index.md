@@ -12,6 +12,7 @@
   <li><a href="csv.html">CSV Export</a> &ndash; for Mouser Electronics</li>
   <li><a href="rejuvenator-bom.xlsx">Excel File Download</a> &ndash; for your spreadsheet application</li>
   <li><a href="https://github.com/shred/rejuvenator-bom">GitHub Project Page</a> &ndash; feel free to contribute</li>
+  <li><a href="other.html">Other Bill of Materials</a> &ndash; if you liked this one</li>
 </ul></div>
 
 # Introduction
