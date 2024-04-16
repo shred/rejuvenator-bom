@@ -2,8 +2,8 @@
 ---
 project: "A1000 Rejuvenator"
 base: "https://shred.github.io/rejuvenator-bom/"
-version: "0.4"
-date: "2024-02-27"
+version: "0.5"
+date: "2024-04-16"
 source:
   repo: "GitHub"
   url: "https://github.com/shred/rejuvenator-bom"
@@ -72,7 +72,7 @@ Board:
     quantity: 1
     components: ["U25"]
     rare: yes
-    remark: "from your A1000, or 8373"
+    remark: "from your A1000, or 8373 for ECS"
   - part: "74HC245"
     package: "DIP-20"
     quantity: 2

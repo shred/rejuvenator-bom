@@ -37,7 +37,7 @@
 <li><strong>RAM</strong>: You can use any 44256 type DRAM with a 256Kx4 organization and an access time of 120ns or faster. You can use either 4 or 8 chips, for 512KB or 1MB of Chip RAM. If 4 chips are used, they are seated in U6, U8, U10, U12. An easy way to get them is to purchase a used Amiga 500 memory expansion with 4 chips. You can also reuse the OKI clock chip from that expansion.</li>
 <li><strong>OKI 6242B</strong>: These chips can still be found as NOS part at online marketplaces. However, it&rsquo;s better to use a RTC72421A as replacement, and skip Y1, C21 and C24 (the latter one is difficult to find anyway). The RTC72421A also does not need calibration.</li>
 <li><strong>EPROM</strong>: You can use 512KB x 16 bit EPROMs like AM27C400 or MX27C4100. They can still be found as NOS parts at online marketplaces. If the Kickstart image is 256KB big, duplicate it when burning it to a 512KB EPROM.</li>
-<li><strong>Agnus</strong>: You will need a Fat Agnus in a PLCC-84 package.</li>
+<li><strong>Agnus</strong>: You will need a Fat Agnus 8372A (318069-02) in a PLCC-84 package. The types 318069-16 (PAL) and 318069-17 (NTSC) can also be used <a href="https://www.amigawiki.org/lib/exe/fetch.php?media=de:parts:agnus_reworks.pdf">after hardware modifications</a> (untested!). For the 2MB Chip RAM modification (see below), you will need to source an ultra-rare 8372AB (318069-03, good luck with that). Do not blindly use other Agnus types, as they have a different pinout and will get damaged!</li>
 <li><strong>Denise</strong>: Can be reused from your Amiga 1000, or replaced with an ECS Denise.</li>
 <li><strong>Paula</strong>: Can be reused from your Amiga 1000.</li>
 <li><strong>PAL 16L8</strong>: They can be replaced with ATF16V8 GALs that are still in production.</li>
@@ -63,7 +63,7 @@
 <p>This project is distributed under the terms of <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#content">GNU General Public License (GPLv3)</a>.</p>
 </article>
     <footer>
-      <strong>A1000 Rejuvenator Bill of Material</strong>, Version: 0.4 (2024-02-27)<br />
+      <strong>A1000 Rejuvenator Bill of Material</strong>, Version: 0.5 (2024-04-16)<br />
       Source at <a class="printable" href="https://github.com/shred/rejuvenator-bom">GitHub</a> &ndash;
       License: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#content">GNU General Public License (GPLv3)</a><br />
       <strong>This content is provided "as is" and without warranties of any kind either expressed or implied.</strong>
