@@ -8,24 +8,24 @@
 
 <div class="toc"><ul>
   <li><a href="index.html">Introduction</a> &ndash; this page</li>
-  <li><a href="rejuvenator-bom.html">The Bill of Material</a> &ndash; what you are probably here for</li>
+  <li><a href="rejuvenator-bom.html">The Bill of Materials</a> &ndash; what you are probably here for</li>
   <li><a href="csv.html">CSV Export</a> &ndash; for Mouser Electronics</li>
   <li><a href="rejuvenator-bom.xlsx">Excel File Download</a> &ndash; for your spreadsheet application</li>
-  <li><a href="https://github.com/shred/rejuvenator-bom">GitHub Project Page</a> &ndash; feel free to contribute</li>
+  <li><a href="https://codeberg.org/shred/rejuvenator-bom">Codeberg Project Page</a> &ndash; feel free to contribute</li>
   <li><a href="other.html">Other Bill of Materials</a> &ndash; if you liked this one</li>
 </ul></div>
 
 # Introduction
 
-This is the Bill of Material for a replica Amiga 1000 Rejuvenator. It is optimized for [joethezombie's Amiga 1000 Rejuvenator Re-creation Project](https://github.com/joethezombie/Amiga-1000-Rejuvenator).
+This is the Bill of Materials for a replica Amiga 1000 Rejuvenator. It is optimized for [joethezombie's Amiga 1000 Rejuvenator Re-creation Project](https://github.com/joethezombie/Amiga-1000-Rejuvenator).
 
 ## Read Me First!
 
 If you want to build your own Rejuvenator, be aware that you are dealing with technology from the last century.
 
-While almost all of the standard components are still available, some components are rare by now. You will need *all* of the listed components (except of those marked optional). We recommend that you try to get the components marked as <span class="rare">Rare</span> first, so you won't waste your money on standard components if you fail to get all the rare ones.
+While almost all the standard components are still available, some components are rare by now. You will need *all* the listed components (except of those marked optional). We recommend that you try to get the components marked as <span class="rare">Rare</span> first, so you won't waste your money on standard components if you fail to get all the rare ones.
 
-Also, installing the Rejuvenator into your Amiga 1000 is a very difficult process. Once you've done it, you definitely won't want to try again. We recommend to read the installation manual first (link see below).
+Also, installing the Rejuvenator into your Amiga 1000 is a very difficult process. Once you've done it, you definitely won't want to try again. We recommend reading the installation manual first (link see below).
 
 ## Rare Parts
 
@@ -46,7 +46,7 @@ Also, installing the Rejuvenator into your Amiga 1000 is a very difficult proces
 
 ## Parceiro
 
-If your Amiga 1000 is equipped with a *Parceiro* by David Dunklee, you need patched JED files for the GALs U29 and U31, and add an additional bodge wire to the Rejuvenator. Please contact David for more information.
+If your Amiga 1000 is equipped with a *Parceiro* by David Dunklee, you need patched JED files for the GALs U29 and U31, and add a bodge wire to the Rejuvenator. Please contact David for more information.
 
 ## Disclaimer
 
@@ -62,7 +62,7 @@ In other words: You might spend a lot of money, and end up with a non-functionin
 
 This list is meant to be a community work. Our goal is to have a canonical list that people can rely on when ordering parts for building an own Rejuvenator board.
 
-However, this list may not be free of errors. If you have found one, please [open an issue](https://github.com/shred/rejuvenator-bom/issues) or send a patch.
+However, this list may not be free of errors. If you have found one, please [open an issue](https://codeberg.org/shred/rejuvenator-bom/issues) or send a patch.
 
 ## License
 

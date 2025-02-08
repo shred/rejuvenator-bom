@@ -1,12 +1,12 @@
 # Rejuvenator Bill of Material
 ---
 project: "A1000 Rejuvenator"
-base: "https://shred.github.io/rejuvenator-bom/"
-version: "0.5"
-date: "2024-04-16"
+base: "https://shred.codeberg.page/rejuvenator-bom/"
+version: "0.6"
+date: "2025-02-08"
 source:
-  repo: "GitHub"
-  url: "https://github.com/shred/rejuvenator-bom"
+  repo: "Codeberg"
+  url: "https://codeberg.org/shred/rejuvenator-bom"
 license:
   type: "GNU General Public License (GPLv3)"
   url: "https://www.gnu.org/licenses/gpl-3.0.en.html#content"
